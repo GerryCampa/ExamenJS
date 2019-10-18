@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ArrayMulti</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap" rel="stylesheet">
+
+    <!--Llamada a CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!--Favicon -->
+    <link rel="icon" href="img/book.png" type="image/png">
+
+</head>
+
+
+<body>
+
+    <!--Título e instrucciones -->
+    <h1>Colección de libros</h1>
+    <h2>Escoge un libro y cárgalo</h2>
+
+
+    <!--Selector de libros -->
+    <div class=seleccion>
+
+        <select name="libros" id="miValor">
+
+            <option selected value="0"> La Galatea </option>
+            <option value="1">Don Quijote</option>
+            <option value="2">2001</option>
+            <option value="3">Imperiofobia</option>
+            <option value="4">Cita con Rama</option>
+            <option value="5">El fin de la infancia</option>
+            <option value="6">El árbol de la ciencia</option>
+
+        </select>
+
+    </div>
+
+
+    <!--Botón lanzafunción -->
+    <button onclick="lanzarEnPantalla()">Cargar</button>
+
+
+    <!--Aquí aparecerán los datos -->
+    <div id="demo"></div>
+
+
+    <!--Botón vuelta a estado inicial -->
+    <button onclick="cerrar()">Cerrar</button>
+
+
+    <!--Llamada a Js-->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

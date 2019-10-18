@@ -1,0 +1,50 @@
+
+
+/*Posicionamiento título y frase*/
+h1,
+h2 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+/*Estilos título*/
+h1 {
+    color: blue;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+}
+
+
+
+/*Estilos frase*/
+h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+/*Estilos y posicionamiento botón*/
+button {
+
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    color: green;
+    background-color: rgb(43, 226, 52);
+
+}
+
+
+
+/*Posición y tamaño imágenes*/
+img {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 150px;
+}

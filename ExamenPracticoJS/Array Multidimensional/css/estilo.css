@@ -1,0 +1,82 @@
+/* Reseteado*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Color y dimensiones*/
+body {
+    max-width: 500px;
+    margin: 10px auto;
+    background-color:rgb(223, 209, 157);
+}
+
+/* Aspecto Título */
+h1 {
+    color: blue;
+    font-size: 40px;
+    font-family: 'Hepta Slab', serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*  Aspecto Instrucciones */
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Tratamiento imagen para aspecto "libro"*/
+img {
+
+    width: 160px;
+    height: 200px;
+    border-radius: 0px 10px 7px 0px;
+    box-shadow: 1px 5px 3px rgb(73, 72, 72);
+
+}
+
+/*Aspecto "tarjeta"*/
+ul li {
+    background: #EEE;
+    margin: 10px;
+    list-style: none;
+    overflow: hidden;
+    padding: 12px;
+    margin: 20px;
+}
+
+/*Posicionado imagen en "tarjeta"*/
+ul li img {
+    float: left;
+    display: block;
+}
+
+
+/*Posicionado del selector*/
+.seleccion {
+    margin-left: 200px;
+    margin-top: 60px;
+    margin-bottom: 130px;
+   
+}
+
+/*Aspecto botones*/
+button {
+
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(13, 4, 41);
+    background-color: rgb(103, 167, 175);
+
+}
+
+/*Centrado del texto "Género"*/
+#demo {
+    text-align: center;
+}
